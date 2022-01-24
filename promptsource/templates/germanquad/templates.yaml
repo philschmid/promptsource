@@ -13,7 +13,7 @@ templates:
       |||
 
 
-      {{answers["answer_start"][0]}}'
+      {{answers["text"][0]}}'
     metadata: !TemplateMetadata
       choices_in_prompt: null
       metrics: []
@@ -33,7 +33,7 @@ templates:
       |||
 
 
-      {{answers["answer_start"][0]}}'
+      {{answers["text"][0]}}'
     metadata: !TemplateMetadata
       choices_in_prompt: null
       metrics: []
@@ -111,7 +111,7 @@ templates:
       |||
 
 
-      {{answers["answer_start"][0]}}'
+      {{answers["text"][0]}}'
     metadata: !TemplateMetadata
       choices_in_prompt: null
       metrics: []
