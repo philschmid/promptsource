@@ -4,7 +4,7 @@ templates:
     answer_choices: null
     id: 264f9165-0eed-4855-8825-6508443c64b9
     jinja: 'Ich weiß, dass die Antwort auf "{{question}}" irgendwo im folgenden
-      Textausschnitt. Können Sie mir sagen, an welchem Zeichen die Antwort beginnt?
+      Textausschnitt enthalten ist. Können Sie mir sagen, mit welchem Zeichen die Antwort beginnt?
 
 
       {{context}}
@@ -60,8 +60,7 @@ templates:
     answer_choices: null
     id: 46908111-143b-4ec2-9326-7959739569d8
     jinja: 'Ich erstelle eine Abschlussprüfung für meinen Lesekurs. Können Sie mir bitte eine
-      eine gute Frage vorschlagen, um abzufragen, wie gut die Schüler den folgenden Textausschnitt gelesen haben?
-      gelesen haben?
+      gute Frage vorschlagen, um festzustellen, wie gut die Schüler den folgenden Textabschnitt gelesen haben?
 
 
       {{context}}
@@ -80,7 +79,7 @@ templates:
   5c908ab4-3f07-4f7a-90c2-b3624a96f3e0: !Template
     answer_choices: null
     id: 5c908ab4-3f07-4f7a-90c2-b3624a96f3e0
-    jinja: 'Ich arbeite an der Abschlussprüfung für meinen Kurs und versuche herauszufinden
+    jinja: 'Ich arbeite an der Abschlussprüfung für meinen Kurs und versuche
       die Antwort auf die Frage "{{question}}" herauszufinden. Ich habe die folgenden Informationen auf Wikipedia gefunden
       und ich glaube, sie enthält die Antwort. Können Sie mir die Antwort sagen?
 
@@ -101,8 +100,7 @@ templates:
   7f09d6a1-f4b8-4303-bd76-5e570f2178c1: !Template
     answer_choices: null
     id: 7f09d6a1-f4b8-4303-bd76-5e570f2178c1
-    jinja: 'Zählen Sie die Zeichen, bis "{{answers["text"][0]}}" im folgenden Textabschnitt erscheint
-      folgenden Textstück erscheint.
+    jinja: 'Zählen Sie die Zeichen, bis "{{answers["text"][0]}}" im folgenden Textabschnitt erscheint.
 
 
       {{context}}
